@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.89);
+  padding: 150px;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: scroll rgba(53, 124, 255, 0.753);
+  align-items: center;
+  border: solid yellow 2pt;
+  border-radius: 50px;
+  padding: 9px;
+  padding-bottom: 1px;
+  width: 300px;
+}
+.b1 {
+  background: fixed rgb(31, 97, 53);
+  color: aliceblue;
+  border: none;
+  border-radius: 9px;
+  width: 80px;
+  padding: 13pt;
+}
+.senha {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+.email {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+.senha1 {
+  background-color: whitesmoke;
+  border: solid 1px;
+  border-radius: 9px;
+}
+.email1 {
+  background-color: whitesmoke;
+  border: solid 1px;
+  border-radius: 9px;
+}
+.logini {
+  color: black;
+}
