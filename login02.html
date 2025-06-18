@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-UA-Conpatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aba de Login</title>
+    <link rel="stylesheet" href="login02.css" />
+  </head>
+  <body>
+    <form action="">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAw0uQsiatrxXcoMhHKOOlIz9eFJCwT-KAkw&s"
+        width="70"
+        style="
+          border: solid 2px;
+          border-radius: 50%;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 5px;
+          padding-right: 5px;
+          background-color: rgba(255, 255, 255, 0.952);
+        "
+      />
+      <h1 class="logini">Login</h1>
+      <p></p>
+      <label class="email" for="id_email"
+        ><strong>email</strong>
+        <input
+          class="email1"
+          type="email"
+          minlength="10"
+          maxlength="30"
+          id="email"
+          required
+          placeholder="por favor insira o email correta"
+        />
+      </label>
+
+      <p></p>
+      <label class="senha" for="id_senha"
+        ><strong>senha</strong>
+        <input
+          class="senha1"
+          type="password"
+          minlength="3"
+          maxlength="15"
+          id="senha"
+          required
+          placeholder="por favor insira a senha correta"
+      /></label>
+      <p></p>
+      <p></p>
+      <label for="id_entrar">
+        <input
+          id="b1"
+          class="b1"
+          type="submit"
+          onclick="entrar(); return false"
+      /></label>
+      <audio id="up" src="levelup.mp3"></audio>
+      <p></p>
+    </form>
+    <script src="login02.js"></script>
+  </body>
+</html>
