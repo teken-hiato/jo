@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-UA-Conpatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Alunos</title>
+  <link rel="stylesheet" href="boletimProfessor.css">
+  </head>
+  <body> 
+<h2 >Sistema de lançamento de notas escolares <br>-Joaqim Martis de Souza/EEFJMS</h2>
+    <form id="id_formulario">
+       
+     <label for="id_nome">
+        <strong>Nome do aluno</strong> 
+        <input
+          id="id_nome"
+          type="text"
+          maxlength="55"
+          minlength="15"
+          placeholder="insira o nome"
+          required
+          class="nome"
+         />
+      </label >
+     <br><br>
+
+      <label><strong>Qual a série</strong></label>
+      <select class="id_serie2" name="serie" id="id_serie">
+        <optgroup class="serie" label="série">
+          <option value="1ª">1ª</option>
+          <option value="2ª">2ª</option>
+          <option value="3ª">3ª</option>
+        </optgroup>
+      </select>
+      <br /><br />
+
+      <label for="id_materia" ><strong>Qual é a matéria:</strong></label>
+      <select id="id_materia" class="areas" name="materia">
+        <optgroup class="areas1" label="grade regular">
+          <option value="portugues">Português</option>
+          <option value="arte">Arte</option>
+          <option value="Ed.Fisica">Ed.Fisica</option>
+          <option value="ingles">Inglês</option>
+          <option value="espanhol">Espanhol</option>
+          <option value="geografia">Geografia</option>
+          <option value="historia">História</option>
+          <option value="filosofia">Filosofia</option>
+          <option value="sociologia">Sociologia</option>
+          <option value="fisica">Física</option>
+          <option value="quimica">Química</option>
+          <option value="biologia">Biologia</option>
+          <option value="matematica">Matemática</option>
+        </optgroup>
+      </select>
+      <br /><br /> 
+  
+      <label><strong>Qual o bimestre</strong></label>
+      <select name="bimestre" class="bimestres" id="id_bimestre">
+        <optgroup class="bimestres1" label="bimestre">
+          <option value="1ª bimestre">1ª bimestre</option>
+          <option value="2ª bimestre">2ª bimestre</option>
+          <option value="3ª bimestre">3ª bimestre</option>
+          <option value="4ª bimestre">4ª bimestre</option>
+        </optgroup>
+      </select>
+      <br /><br />
+
+      <label for="id_nota">
+        <strong>Lançe uma nota</strong>
+        <input
+          type="text"
+          maxlength="3"
+          min="0"
+          placeholder="insira uma nota"
+          id="id_nota"
+          required
+        />
+      </label>
+      <br /><br />
+
+      <div>
+        <button type="submit" id="lançar" class="Lançar">Lançar</button>
+        <audio src="levelup.mp3" id="up"></audio>
+        <button type="reset" id="Limpar" class="Limpar">Limpar</button>
+         <audio src="the-hand-noise.mp3" id="plum"></audio>
+
+        <input type="button" id="id_consultar" value="Consultar" />
+        <audio src="kof-98-select-character.mp3" id="select"></audio>
+      </div>
+    </form>
+
+    <div id="consulta"></div>
+      <dialog id="dialogTela">
+          <form id="form_edicao">
+        <fieldset>
+          <legend><h3>Tela de Edição</h3></legend>
+
+          <label for="id_nome2">
+            <strong>Nome do aluno</strong>
+            <input
+              id="id_nome2"
+              type="text"
+              maxlength="55"
+              minlength="15"
+              placeholder="insira o nome"
+              required
+            />
+          </label>
+          <br /><br />
+
+          <label><strong>Qual a série</strong></label>
+          <label for="id_serie2"></label>
+          <select name="serie" id="id_serie2">
+            <optgroup label="série">
+              <option value="1ª">1ª</option>
+              <option value="2ª">2ª</option>
+              <option value="3ª">3ª</option>
+            </optgroup>
+          </select>
+          <br /><br />
+          <label for="id_materia2"><strong>Qual é a matéria:</strong></label>
+          <select id="id_materia2" name="materia">
+            <optgroup label="grade regular">
+              <option value="portugues">Português</option>
+              <option value="arte">Arte</option>
+              <option value="Ed.Fisica">Ed.Fisica</option>
+              <option value="ingles">Inglês</option>
+              <option value="espanhol">Espanhol</option>
+              <option value="geografia">Geografia</option>
+              <option value="historia">História</option>
+              <option value="filosofia">Filosofia</option>
+              <option value="sociologia">Sociologia</option>
+              <option value="fisica">Física</option>
+              <option value="quimica">Química</option>
+              <option value="biologia">Biologia</option>
+              <option value="matematica">Matemática</option>
+            </optgroup>
+          </select>
+          <br /><br />
+          <label><strong>Qual o bimestre</strong></label>
+          <select name="bimestre" id="id_bimestre2">
+            <optgroup label="bimestre">
+              <option value="1ª bimestre">1ª bimestre</option>
+              <option value="2ª bimestre">2ª bimestre</option>
+              <option value="3ª bimestre">3ª bimestre</option>
+              <option value="4ª bimestre">4ª bimestre</option>
+            </optgroup>
+          </select>
+          <br /><br />
+          <label  for="id_nota2">
+            <strong>Lançe uma nota</strong>
+            <input
+              class="notas"
+              type="text"
+              maxlength="3"
+              min="0"
+              placeholder="insira uma nota"
+              id="id_nota2"
+              required
+              
+            />
+          </label>
+          <br /><br />
+          <div class="botoes">
+            <button id="ok">ok</button><img>
+            <button id="fechar">Fechar</button>
+             <audio id="run" src="pokemon-red_blue_yellow-run-away-sound-effect-1.mp3"></audio>
+          </div>
+        </form>
+        </fieldset>
+      </dialog>
+    
+
+    <script src="boletimProfessor.js"></script>
+  </body>
+</html>

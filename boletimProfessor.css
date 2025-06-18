@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.89);
+  padding: 10px;
+  color: rgb(0, 0, 0);
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: fixed rgba(53, 124, 255, 0.753);
+  border: solid yellow 2pt;
+  border-radius: 50px;
+  padding: 30px;
+  width: 300px;
+}
+.areas {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+.areas1 {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(85, 114, 156, 0.973);
+}
+.bimestres {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+.bimestres1 {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(85, 114, 156, 0.973);
+}
+.serie {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(85, 114, 156, 0.973);
+}
+#id_serie {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+.nome {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+
+#id_nota {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+.Lançar {
+  background: fixed rgb(31, 97, 47);
+  color: aliceblue;
+  border: none;
+  border-radius: 9px;
+  width: 70px;
+  padding: 5pt;
+}
+.Limpar {
+  background: fixed rgba(97, 33, 31, 0.932);
+  color: aliceblue;
+  border: none;
+  border-radius: 9px;
+  width: 70px;
+  padding: 5pt;
+}
+#id_consultar {
+  background: fixed rgb(31, 67, 97);
+  color: aliceblue;
+  border: none;
+  border-radius: 9px;
+  width: 70px;
+  padding: 5pt;
+}
+h2 {
+  color: black;
+  border: solid yellow;
+  background: fixed white border-box;
+  width: 370px;
+  padding: 8pt;
+  border-radius: 25px;
+  text-align: justify;
+}
+input::placeholder {
+  color: black;
+}
+#consulta {
+  background-color: rgba(53, 124, 255, 0.753);
+  border: solid yellow 2pt;
+  border-radius: 25px;
+  margin: 35px;
+  padding: 10px;
+  width: 330px;
+}
+#dialogTela {
+  border: yellow solid 2pt;
+  border-radius: 50px;
+  background-color: rgb(31, 67, 97);
+}
+#form_edicao {
+  background: fixed rgb(255, 255, 255);
+  border: yellow 50px;
+  border-radius: 50px;
+}
+fieldset {
+  border-radius: 20px;
+  padding: 9px;
+  border: solid rgb(192, 192, 32);
+}
+#ok {
+  background: fixed rgb(31, 97, 47);
+  color: aliceblue;
+  border: none;
+  border-radius: 9px;
+  width: 70px;
+  padding: 5pt;
+}
+#fechar {
+  background: fixed rgba(97, 33, 31, 0.932);
+  color: aliceblue;
+  border: none;
+  border-radius: 9px;
+  width: 70px;
+  padding: 5pt;
+}
+
+#id_materia2 {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+#id_bimestre2 {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+#id_serie2 {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+#id_nome2 {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
+#id_nota2 {
+  border: 1px solid black;
+  border-radius: 4cap;
+  background-color: rgba(195, 195, 196, 0.541);
+}
